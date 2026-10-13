@@ -37,6 +37,7 @@ curl -fsSL https://cdn.laravelify.cloud/install.sh | sudo bash
 ### What it does
 
 - 🚀 **Git push to deploy** backends, front ends, and full-stack apps (PHP 8.0–8.5, Node 20–24) with live build logs, or start from a built-in example project
+- 💾 **S3 backups** of databases and folders on a schedule, with table-level and folder-level restore
 - 📈 **Live monitoring**: requests, p95 response times, uptime, grouped Laravel errors
 - 🛡️ **Attack detection** with one-click IP blocking, 💓 heartbeats for cron jobs
 - 💬 **Telegram alerts** for deploys, downtime, crashed workers, error spikes
