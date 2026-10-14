@@ -1,3 +1,4 @@
 # Shows the Sponsor button on every Laravelify repository (GitHub Sponsors must be approved first).
 github: [laravelify-cloud]
+buy_me_a_coffee: arshadarsh01
 custom: ["https://laravelify.cloud/#sponsors"]
