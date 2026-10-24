@@ -49,6 +49,7 @@ One command on a fresh Ubuntu 22.04, 24.04, or 26.04 server installs the latest 
 
 - 🚀 **Git push to deploy** backends, front ends, and full-stack apps through a GitHub App, with a live build log in a real console and a **Deployments board** of every site
 - 🧑‍💻 **VS Code for every site** in the browser, with an **AI Agents chat** (Claude Code, Cursor, GitHub Copilot: switch mid-task and the next one continues) and a **Live Server** that shares your dev server on a random HTTPS address and refreshes on save
+- 🗂️ **Workspaces**: several projects in one VS Code, a zip download, and a share link anyone can open; the editor works on phones and tablets too
 - 🗄️ **Database tool**: a fast grid for millions of rows, spreadsheet-style filters, edits with undo, foreign keys both ways, an SQL console, and encrypted columns shown decrypted
 - 💾 **S3 backups** of databases and folders on a schedule or as one Full backup: look inside, download parts as SQL, restore a database, some tables, or some folders
 - 📈 **Live monitoring**: requests, p95 response times, uptime, grouped Laravel errors, server CPU and memory
