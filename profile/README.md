@@ -53,6 +53,7 @@ One command on a fresh Ubuntu 22.04, 24.04, or 26.04 server installs the latest 
 - 🗄️ **Database tool**: a fast grid for millions of rows, spreadsheet-style filters, edits with undo, foreign keys both ways, an SQL console, and encrypted columns shown decrypted
 - 💾 **S3 backups** of databases and folders on a schedule or as one Full backup: look inside, download parts as SQL, restore a database, some tables, or some folders
 - 📈 **Live monitoring**: requests, p95 response times, uptime, grouped Laravel errors, server CPU and memory
+- 🐛 **Error tracking with GlitchTip** on your own server: server and browser errors from every site, and one click adds the Sentry SDK to the code and deploys
 - 🛡️ **Attack detection** with one-click IP blocking, 💓 heartbeats for cron jobs
 - 💬 **Telegram alerts** for deploys, downtime, crashed workers, error spikes, slow responses, and a full disk
 - 🖥️ **Live terminal** for every site: answer the questions a command asks, Ctrl+C, Artisan and PM2 autocomplete
