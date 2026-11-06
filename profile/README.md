@@ -47,18 +47,18 @@ One command on a fresh Ubuntu 22.04, 24.04, or 26.04 server installs the latest 
 
 ### What it does
 
-- 🚀 **Git push to deploy** backends, front ends, and full-stack apps through a GitHub App, with a live build log in a real console and a **Deployments board** of every site
+- 🚀 **Git push to deploy** backends, front ends, and full-stack apps through a GitHub App, with a live build log in a real console, a **Deployments board** of every site, and **one-click rollback** that keeps the replaced code
 - 🧑‍💻 **VS Code for every site** in the browser, with an **AI Agents chat** (Claude Code, Cursor, GitHub Copilot: switch mid-task and the next one continues) and a **Live Server** that shares your dev server on a random HTTPS address and refreshes on save
 - 🗂️ **Workspaces**: several projects in one VS Code, a zip download, and a share link anyone can open; the editor works on phones and tablets too
-- 🗄️ **Database tool**: a fast grid for millions of rows, spreadsheet-style filters, edits with undo, foreign keys both ways, an SQL console, and encrypted columns shown decrypted
+- 🗄️ **Database tool** for MySQL, PostgreSQL, SQLite, and MongoDB: a fast grid for millions of rows, spreadsheet-style filters, edits with undo, foreign keys both ways, an SQL editor with autocomplete and per-database history, and encrypted columns shown decrypted
 - 💾 **S3 backups** of databases and folders on a schedule or as one Full backup: look inside, download parts as SQL, restore a database, some tables, or some folders
 - 📈 **Live monitoring**: requests, p95 response times, uptime, grouped Laravel errors, server CPU and memory
-- 🐛 **Error tracking with GlitchTip** on your own server: server and browser errors from every site, and one click adds the Sentry SDK to the code and deploys
+- 🐛 **Error tracking with GlitchTip** on your own server: issues, performance, and logs inside the panel, one click adds the Sentry SDK to the code, and the AI chat fixes a site's errors and deploys
 - 🛡️ **Attack detection** with one-click IP blocking, 💓 heartbeats for cron jobs
 - 💬 **Telegram alerts** for deploys, downtime, crashed workers, error spikes, slow responses, and a full disk
 - 🖥️ **Live terminal** for every site: answer the questions a command asks, Ctrl+C, Artisan and PM2 autocomplete
 - 🔐 **Separate users**: the panel runs as its own user, and each website runs as its own, so one site cannot read the panel or another site
-- ☁️ **Cloudflare tunnels**, two-factor sign-in, 🧰 file manager with trash and versions, logs, health checks
+- ☁️ **Cloudflare tunnels**, two-factor sign-in with secrets shown only after your code, 🧰 file manager with trash and versions, logs, health checks
 - 🤖 **MCP for AI assistants**: ask Claude Code, Claude Desktop, or Cursor to deploy a repository or read a log
 
 ### Get involved
