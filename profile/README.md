@@ -31,7 +31,7 @@
 curl -fsSL https://cdn.laravelify.cloud/install.sh | sudo bash
 ```
 
-One command on a fresh Ubuntu 22.04, 24.04, or 26.04 server installs the latest release, step by step: nginx, PHP-FPM 8.0–8.5, MySQL 8.4, Redis, Node.js 20/22/24, PM2, Supervisor, Cloudflare, and a firewall. Want only some PHP or Node.js versions? Build your own command at **[laravelify.cloud/#install](https://laravelify.cloud/#install)**.
+One command on a fresh Ubuntu 22.04, 24.04, or 26.04 server installs the latest release, step by step: nginx, PHP-FPM 8.4, MySQL 8.4, Redis, Node.js 24, PM2, Supervisor, Cloudflare, and a firewall. Other PHP (7.4–8.5) and Node.js versions are added by the panel when a website needs them. Want more up front? Build your own command at **[laravelify.cloud/#install](https://laravelify.cloud/#install)**.
 
 > [!NOTE]
 > Laravelify is in **public beta**. Try it on a fresh server, keep backups, and [tell us what breaks](https://github.com/laravelify-cloud/laravelify/issues).
