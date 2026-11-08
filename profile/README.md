@@ -33,6 +33,15 @@ curl -fsSL https://cdn.laravelify.cloud/install.sh | sudo bash
 
 One command on a fresh Ubuntu 22.04, 24.04, or 26.04 server installs the latest release, step by step: nginx, PHP-FPM 8.4, MySQL 8.4, Redis, Node.js 24, PM2, Supervisor, Cloudflare, and a firewall. Other PHP (7.4–8.5) and Node.js versions are added by the panel when a website needs them. Want more up front? Build your own command at **[laravelify.cloud/#install](https://laravelify.cloud/#install)**.
 
+### Two ways to start
+
+| | How | You get |
+| --- | --- | --- |
+| **From a terminal** | Run the command above. Choose **your own domain** (a Cloudflare tunnel token), or a **free `https://<name>.laravelify.cloud` address** with the install key from [app.laravelify.cloud](https://app.laravelify.cloud) | The panel in a few minutes, with PHP 8.4, Node 24, MySQL, phpMyAdmin, and VS Code |
+| **From the browser** | Sign in to [app.laravelify.cloud](https://app.laravelify.cloud), connect your server over SSH, and click Install | The same panel, a free address, Telegram alerts, and one-click **Open panel** |
+
+Then open the setup link it prints, create the admin with two-factor sign-in, connect GitHub, and add your first website. The [Quickstart](https://docs.laravelify.cloud/quickstart) walks through it.
+
 > [!NOTE]
 > Laravelify is in **public beta**. Try it on a fresh server, keep backups, and [tell us what breaks](https://github.com/laravelify-cloud/laravelify/issues).
 
@@ -48,18 +57,22 @@ One command on a fresh Ubuntu 22.04, 24.04, or 26.04 server installs the latest 
 ### What it does
 
 - 🚀 **Git push to deploy** backends, front ends, and full-stack apps through a GitHub App, with a live build log in a real console, a **Deployments board** of every site, and **one-click rollback** that keeps the replaced code
+- 🌿 **Environments**: production plus development or staging of one website, each on its own branch, address, database, and `.env`
 - 🧑‍💻 **VS Code for every site** in the browser, with an **AI Agents chat** (Claude Code, Cursor, GitHub Copilot: switch mid-task and the next one continues) and a **Live Server** that shares your dev server on a random HTTPS address and refreshes on save
 - 🗂️ **Workspaces**: several projects in one VS Code, a zip download, and a share link anyone can open; the editor works on phones and tablets too
 - 🗄️ **Database tool** for MySQL, PostgreSQL, SQLite, and MongoDB: a fast grid for millions of rows, spreadsheet-style filters, edits with undo, foreign keys both ways, an SQL editor with autocomplete and per-database history, and encrypted columns shown decrypted
+- 📥 **Import SQL** of any size with live progress (a 666 MB dump in about 30 seconds), empty or drop several tables at once, and **phpMyAdmin** opened signed in
 - 💾 **S3 backups** of databases and folders on a schedule or as one Full backup: look inside, download parts as SQL, restore a database, some tables, or some folders
 - 📈 **Live monitoring**: requests, p95 response times, uptime, grouped Laravel errors, server CPU and memory
 - 🐛 **Error tracking with GlitchTip** on your own server: issues, performance, and logs inside the panel, one click adds the Sentry SDK to the code, and the AI chat fixes a site's errors and deploys
 - 🛡️ **Attack detection** with one-click IP blocking, 💓 heartbeats for cron jobs
-- 💬 **Telegram alerts** for deploys, downtime, crashed workers, error spikes, slow responses, and a full disk
+- 💬 **Telegram alerts** for deploys, downtime, crashed workers, error spikes, slow responses, and a full disk, with your own bot or through Laravelify Cloud with no setup
 - 🖥️ **Live terminal** for every site: answer the questions a command asks, Ctrl+C, Artisan and PM2 autocomplete
 - 🔐 **Separate users**: the panel runs as its own user, and each website runs as its own, so one site cannot read the panel or another site
+- 🔑 **Protect a website** with basic auth: a username and password, or your 6-digit **authenticator code** that lets your browser in for a day; hide it from search engines and refuse crawlers
 - ☁️ **Cloudflare tunnels**, two-factor sign-in with secrets shown only after your code, 🧰 file manager with trash and versions, logs, health checks
-- 🤖 **MCP for AI assistants**: ask Claude Code, Claude Desktop, or Cursor to deploy a repository or read a log
+- 🤖 **MCP for AI assistants**: ask Claude Code, Claude Desktop, or Cursor to deploy a repository, add a development environment, read a log, or fix an error and deploy
+- ☁️ **[Laravelify Cloud](https://app.laravelify.cloud)** (optional, free): install from the browser, a free laravelify.cloud address, Telegram alerts with a history, each server's version, and one-click Open panel
 
 ### Get involved
 
