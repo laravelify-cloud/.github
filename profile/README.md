@@ -74,6 +74,18 @@ Then open the setup link it prints, create the admin with two-factor sign-in, co
 - 🤖 **MCP for AI assistants**: ask Claude Code, Claude Desktop, or Cursor to deploy a repository, add a development environment, read a log, or fix an error and deploy
 - ☁️ **[Laravelify Cloud](https://app.laravelify.cloud)** (optional, free): install from the browser, a free laravelify.cloud address, Telegram alerts with a history, each server's version, and one-click Open panel
 
+### Sponsors
+
+### Huge Sponsors
+
+*This spot is open. [Become the first Huge Sponsor](https://laravelify.cloud/#sponsors).*
+
+### Big Sponsors
+
+*This spot is open. [Become a Big Sponsor](https://laravelify.cloud/#sponsors).*
+
+Hosting companies, developer tools, and teams that run Laravelify can sponsor it to fund new features, security fixes, and support. Your logo and link appear here and on [laravelify.cloud](https://laravelify.cloud/#sponsors). Write to us from the [sponsor page](https://laravelify.cloud/#sponsors).
+
 ### Get involved
 
 - ⭐ Star [laravelify](https://github.com/laravelify-cloud/laravelify) to follow the beta
