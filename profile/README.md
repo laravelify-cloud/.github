@@ -40,6 +40,8 @@ One command on a fresh Ubuntu 22.04, 24.04, or 26.04 server installs the latest 
 | **From a terminal** | Run the command above. Choose **your own domain** (a Cloudflare tunnel token), or a **free `https://<name>.laravelify.cloud` address** with the install key from [app.laravelify.cloud](https://app.laravelify.cloud) | The panel in a few minutes, with PHP 8.4, Node 24, MySQL, phpMyAdmin, and VS Code |
 | **From the browser** | Sign in to [app.laravelify.cloud](https://app.laravelify.cloud), connect your server over SSH, and click Install | The same panel, a free address, Telegram alerts, and one-click **Open panel** |
 
+Need a server? Get a VPS with Ubuntu 24.04 from [Hostinger](https://www.hostinger.com/in?REFERRALCODE=LARAVELIFY) (referral link: Laravelify may earn a commission, which helps fund the project).
+
 Then open the setup link it prints, create the admin with two-factor sign-in, connect GitHub, and add your first website. The [Quickstart](https://docs.laravelify.cloud/quickstart) walks through it.
 
 > [!NOTE]
