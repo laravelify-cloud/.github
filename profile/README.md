@@ -25,7 +25,7 @@
 
 ---
 
-**Laravelify** is an open-source, self-hosted control panel that turns one Ubuntu server into a home for your apps: **Laravel** and PHP, **Spring Boot** (Java), **ASP.NET Core** (C#), **Django**, **Flask**, **FastAPI**, **Go**, **Bun**, **Express**, **NestJS**, **React**, **Vue.js**, **Angular**, **Svelte**, **Astro**, **Next.js**, **Nuxt**, and **SvelteKit**. Push to GitHub and your site deploys, then watch live traffic, errors, attacks, and server load, edit your databases, and run commands, all from one panel. No Docker, no per-seat pricing, no vendor lock-in.
+**Laravelify** is an open-source, self-hosted control panel that turns one Ubuntu server into a home for your apps: **Laravel** and PHP, **Spring Boot** (Java), **ASP.NET Core** (C#), **Django**, **Flask**, **FastAPI**, **Go**, **Bun**, **Express**, **NestJS**, **React**, **Vue.js**, **Angular**, **Svelte**, **Astro**, **Next.js**, **Nuxt**, and **SvelteKit**. Push to GitHub and your site deploys, then watch live traffic, errors, attacks, and server load, edit your databases, and run commands, all from one panel. One-click plugins add PostgreSQL, MySQL, MongoDB, Redis, MinIO, and Vault. Docker only when you want it, no per-seat pricing, no vendor lock-in.
 
 ```bash
 curl -fsSL https://cdn.laravelify.cloud/install.sh | sudo bash
